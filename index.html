@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!-- SEO básico -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Barbearia Prime | Mais que um corte. Uma experiência.</title>
+  <meta name="description"
+    content="Barbearia masculina premium com foco em experiência, estilo e profissionalismo. Agende seu horário pelo WhatsApp e viva o corte perfeito." />
+  <link rel="canonical" href="https://www.seudominio.com/" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta property="og:title" content="Bruno Araujo" />
+  <meta property="og:description" content="Mais que um corte. Uma experiência." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.seudominio.com/" />
+  <meta property="og:image" content="assets/img/logo.jpeg" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="./assets/img/logo.jpeg" type="image/png" />
+
+  <!-- Fonts (Bebas Neue + Montserrat) -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Navegação fixa -->
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a href="#" class="logo" aria-label="Barbearia Prime">
+        <img src="./assets/img/logo.png">
+      </a>
+      <nav class="nav" role="navigation" aria-label="Navegação principal">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+        <ul id="menu" class="nav__list">
+          <li><a href="#hero" class="nav__link">Início</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#equipe" class="nav__link">Equipe</a></li>
+          <li><a href="#galeria" class="nav__link">Galeria</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#agendamento" class="nav__link">Agendamento</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+      <a href="https://wa.me/5535988888888?text=Quero%20agendar%20um%20hor%C3%A1rio"
+        class="btn btn--gold btn--sm header__cta" target="_blank" rel="noopener">Agendar</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero" aria-label="Hero com chamada principal">
+    <div class="hero__bg" role="img" aria-label="Barbeiro em ação"></div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Mais que um corte. Uma experiência.</h1>
+      <p class="hero__subtitle">Estilo e precisão aliados a um atendimento premium, com foco total em cada detalhe.</p>
+      <div class="hero__actions">
+        <a href="https://wa.me/5535988888888?text=Quero%20agendar%20um%20hor%C3%A1rio" class="btn btn--gold btn--lg"
+          target="_blank" rel="noopener">Agendar horário</a>
+        <a href="#servicos" class="btn btn--outline btn--lg">Ver serviços</a>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator" aria-hidden="true">
+      <span class="scroll-dot"></span>
+    </div>
+  </section>
+
+  <main>
+    <!-- Serviços -->
+    <section id="servicos" class="section section--pad" aria-labelledby="servicos-title">
+      <div class="container">
+        <h2 id="servicos-title" class="section__title reveal fade-down">Serviços</h2>
+        <p class="section__lead reveal fade-up">Excelência em cada técnica, com foco em estilo e durabilidade.</p>
+
+        <div class="grid grid--cards">
+          <article class="card reveal fade-up">
+            <img src="./assets/img/icons/cabelo.png" alt="" class="card__icon" />
+            <h3 class="card__title">Corte Masculino</h3>
+            <p class="card__desc">Cortes clássicos e modernos, adaptados ao seu perfil.</p>
+            <span class="card__price">A partir de R$ 45</span>
+          </article>
+
+          <article class="card reveal fade-up">
+            <img src="./assets/img/icons/masculino.PNG" alt="" class="card__icon" />
+            <h3 class="card__title">Barba Tradicional</h3>
+            <p class="card__desc">Aparar, contornar e hidratar para um acabamento de respeito.</p>
+            <span class="card__price">A partir de R$ 25</span>
+          </article>
+
+          <article class="card reveal fade-up">
+            <img src="./assets/img/icons/corte+barba.png" alt="" class="card__icon" />
+            <h3 class="card__title">Corte + Barba</h3>
+            <p class="card__desc">Combo para quem busca praticidade e presença.</p>
+            <span class="card__price">A partir de R$ 70</span>
+          </article>
+
+          <article class="card reveal fade-up">
+            <img src="./assets/img/icons/pigment.png" alt="" class="card__icon" />
+            <h3 class="card__title">Pigmentação</h3>
+            <p class="card__desc">Realce natural para falhas e definição do contorno.</p>
+            <span class="card__price">A partir de R$ 35</span>
+          </article>
+
+          <article class="card reveal fade-up">
+            <img src="./assets/img/icons/sobram.png" alt="" class="card__icon" />
+            <h3 class="card__title">Sobrancelha</h3>
+            <p class="card__desc">Limpeza precisa mantendo a masculinidade do traço.</p>
+            <span class="card__price">A partir de R$ 10</span>
+          </article>
+
+          <article class="card reveal fade-up">
+            <img src="./assets/img/icons/plano.png" alt="" class="card__icon" />
+            <h3 class="card__title">Plano Mensal</h3>
+            <p class="card__desc">Assinatura para manter o visual em dia com vantagens exclusivas.</p>
+            <span class="card__price">Sob consulta</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section section--pad section--dark" aria-labelledby="sobre-title">
+      <div class="container">
+        <h2 id="sobre-title" class="section__title reveal fade-down">Sobre</h2>
+        <p class="section__lead reveal fade-up">Bruno Araujo atua na Barbearia Almiro Neto ao lado de uma equipe formada
+          por Almiro Neto, Vitor Ometto e Kauê, profissionais que trabalham de forma integrada para oferecer um
+          atendimento organizado, consistente e focado na qualidade do serviço.</p>
+        <div class="about">
+          <div class="about__media reveal fade-right">
+            <img src="./assets/img/sobre/bruno.png" alt="Ambiente da barbearia" class="about__img" />
+          </div>
+          <div class="about__text reveal fade-left">
+            <p>A barbearia é um espaço pensado para o público masculino, unindo técnicas tradicionais e atuais de corte,
+              barba e cuidados pessoais. Cada atendimento é realizado com atenção aos detalhes, respeitando o estilo, o
+              perfil e a preferência de cada cliente.</p>
+            <p>A equipe mantém um padrão elevado de higiene, precisão e profissionalismo, utilizando ferramentas
+              adequadas e produtos selecionados para garantir bons resultados e uma experiência confortável. O objetivo
+              é proporcionar um ambiente confiável, bem estruturado e alinhado às tendências, sem abrir mão da
+              identidade clássica da barbearia.</p>
+            <p>A Barbearia Almiro Neto se destaca pelo trabalho em equipe, organização e compromisso com a satisfação de
+              quem busca um serviço bem executado, em um ambiente moderno e acolhedor.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Equipe -->
+    <section id="equipe" class="section section--pad" aria-labelledby="equipe-title">
+      <div class="container">
+        <h2 id="equipe-title" class="section__title reveal fade-down">Nossa equipe</h2>
+        <p class="section__lead reveal fade-up">Profissionais experientes, técnica afiada e olhar atento aos detalhes.
+        </p>
+
+        <div class="grid grid--team">
+          <article class="team-card reveal fade-up">
+            <img src="./assets/img/equipe/almiro.png" alt="Foto do barbeiro João" class="team-card__photo" />
+            <h3 class="team-card__name">Almiro Neto</h3>
+          </article>
+
+          <article class="team-card reveal fade-up">
+            <img src="./assets/img/equipe/kaue.png" alt="Foto do barbeiro Carlos" class="team-card__photo" />
+            <h3 class="team-card__name">Kauê</h3>
+          </article>
+
+          <article class="team-card reveal fade-up">
+            <img src="./assets/img/equipe/Vitor.png" alt="Foto do barbeiro Rafael" class="team-card__photo" />
+            <h3 class="team-card__name">Vitor Ometto</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="section section--pad section--dark" aria-labelledby="galeria-title">
+      <div class="container">
+        <h2 id="galeria-title" class="section__title reveal fade-down">Galeria</h2>
+        <p class="section__lead reveal fade-up">Cortes reais e o ambiente que te espera.</p>
+
+        <div class="grid grid--gallery">
+          <figure class="gallery__item reveal fade-up">
+            <img src="./assets/img/servicos/massagem.jpg" alt="" class="gallery__img" />
+          </figure>
+          <figure class="gallery__item reveal fade-up">
+            <img src="./assets/img/galeria/barbe.PNG" alt="" class="gallery__img" />
+          </figure>
+          <figure class="gallery__item reveal fade-up">
+            <img src="./assets/img/galeria/barbe2.PNG" alt="" class="gallery__img" />
+          </figure>
+          <figure class="gallery__item reveal fade-up">
+            <img src="./assets/img/galeria/barbe3.PNG" alt="" class="gallery__img" />
+          </figure>
+          <figure class="gallery__item reveal fade-up">
+            <img src="./assets/img/galeria/barbe4.PNG" alt="" class="gallery__img" />
+          </figure>
+          <figure class="gallery__item reveal fade-up">
+            <img src="./assets/img/galeria/barbe5.PNG" alt="" class="gallery__img" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="section section--pad" aria-labelledby="depoimentos-title">
+      <div class="container">
+        <h2 id="depoimentos-title" class="section__title reveal fade-down">Depoimentos</h2>
+        <p class="section__lead reveal fade-up">A opinião de quem já viveu a experiência.</p>
+
+        <div class="grid grid--testimonials">
+          <article class="testimonial reveal fade-up" aria-label="Depoimento do cliente Thiago">
+            <div class="stars" aria-label="5 estrelas">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span
+                class="star"></span><span class="star"></span>
+            </div>
+            <p class="testimonial__text">Atendimento impecável e resultado perfeito. A melhor barbearia da cidade.</p>
+            <span class="testimonial__author">Thiago M.</span>
+          </article>
+
+          <article class="testimonial reveal fade-up">
+            <div class="stars" aria-label="5 estrelas">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span
+                class="star"></span><span class="star"></span>
+            </div>
+            <p class="testimonial__text">Pontuais, profissionais e com um ambiente incrível. Recomendo.</p>
+            <span class="testimonial__author">Bruno A.</span>
+          </article>
+
+          <article class="testimonial reveal fade-up">
+            <div class="stars" aria-label="5 estrelas">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span
+                class="star"></span><span class="star"></span>
+            </div>
+            <p class="testimonial__text">Saí com autoestima lá em cima. Voltarei com certeza.</p>
+            <span class="testimonial__author">Lucas R.</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agendamento -->
+    <section id="agendamento" class="section section--pad section--dark" aria-labelledby="agendamento-title">
+      <div class="container">
+        <h2 id="agendamento-title" class="section__title reveal fade-down">Agende seu horário</h2>
+        <p class="section__lead reveal fade-up">Clique e fale direto com a nossa equipe.</p>
+
+        <div class="cta-box reveal fade-up">
+          <a href="https://wa.me/55359984576243?text=Ol%C3%A1%2C%20quero%20agendar%20um%20hor%C3%A1rio"
+            class="btn btn--gold btn--xl" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://sites.appbarber.com.br/barbeariaalmiro-oeyk" class="btn btn--outline btn--xl" target="_blank"
+            rel="noopener">Agenda online</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato e localização -->
+    <section id="contato" class="section section--pad" aria-labelledby="contato-title">
+      <div class="container">
+        <h2 id="contato-title" class="section__title reveal fade-down">Contato e localização</h2>
+
+        <div class="contact">
+          <div class="contact__info reveal fade-right">
+            <p><strong>Endereço:</strong> Avenida Dona Floriana , 1293 - Centro, Guaxupé-MG</p>
+            <p><strong>Horário:</strong> Ter–Sex: 10h–20h • Sáb: 10h–20h</p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/5535984576243" target="_blank" rel="noopener">(+55) 35
+                984576243</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/bruno_araujo_barber/" target="_blank"
+                rel="noopener">@bruno_araujo_barber</a></p>
+          </div>
+
+          <div class="contact__map reveal fade-left" aria-label="Mapa da localização">
+            <!-- Substitua o src pelo iframe do seu Google Maps -->
+            <iframe title="Mapa - Almiro Neto Barbearia"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.1053548384957!2d-46.72255142473586!3d-21.30685298041301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b64f7156a8fe47%3A0x309b5b9086b31d7c!2sAlmiro%20Neto%20barbearia!5e0!3m2!1spt-BR!2sbr!4v1765848525773!5m2!1spt-BR!2sbr"
+              width="100%" height="380" style="border:0;" allowfullscreen loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="./assets/img/logo.png">
+        <p class="footer__phrase">Estilo que fala por você.</p>
+      </div>
+      <ul class="footer__links">
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#agendamento">Agendamento</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="footer__social">
+        <a href="https://instagram.com/suainstagram" target="_blank" rel="noopener" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://wa.me/5535988888888" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+
+    </div>
+    <div class="footer__copy">
+      <small>© <span id="year"></span> Bruno Araujo. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="assets/js/script.js" defer></script>
+</body>
+
+</html>
