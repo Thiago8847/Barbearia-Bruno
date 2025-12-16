@@ -84,6 +84,18 @@ body {
   gap: 16px;
   padding: 14px 0;
 }
+.logo img {
+  max-width: 160px;   /* tamanho no desktop */
+  width: 100%;
+  height: auto;       /* mantém proporção */
+  display: block;
+}
+@media (max-width: 768px) {
+  .logo img {
+    max-width: 120px;
+  }
+}
+
 .logo__text {
   font-family: "Bebas Neue", sans-serif;
   font-size: 28px;
